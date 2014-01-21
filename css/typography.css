@@ -63,3 +63,32 @@ small, .milli {
   font-size: 0.7901rem;
   line-height: 1.8984;
 }
+
+a,
+a:link {
+	color: #8200FF;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(130,0,255,1);
+	transition: all 200ms linear;
+}
+
+a:visited {
+	color: #9048FF;
+	border-bottom-color: rgba(144,72,255,0.5);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #CD97FF;
+	border-bottom-color: #CD97FF;
+}
+
+em, i{
+	font-style:italic;
+}
+
+strong, b{
+	font-weight: bold;
+}
+
