@@ -115,3 +115,11 @@ td {
 	background-color: #CD97FF;
 	color: #000;
 	font-weight: 300;
+}
+	
+blockquote p {
+	background-color: #CD97FF;
+	padding: 1.5rem;
+	border-radius: 30px;
+}
+	
