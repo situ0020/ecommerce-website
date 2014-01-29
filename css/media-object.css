@@ -12,6 +12,10 @@
 	overflow: hidden;
 }
 
+.media-body h2 {
+	margin-top: 0.5em;
+}
+
 .media-img-reversed {
 	float: right;
 	margin: 0 0 0 10px;
