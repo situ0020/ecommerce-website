@@ -6,7 +6,8 @@
 .promo-box {
 	border: solid 0.25em #000000;
 	padding: 1em;
-	display: inline-block
+	display: inline-block;
+	margin: 1em;
 }
 
 h1 {
@@ -14,4 +15,14 @@ h1 {
 	background-color: #000000;
 	text-align: center;
 	padding: 0.5em;
+}
+
+p {
+	font-size: 0.875em;
+}
+
+@media only screen and (min-width: 28em){
+	.promo-box {
+		width: 400px;
+	}
 }
