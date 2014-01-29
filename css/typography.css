@@ -1,7 +1,11 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Light Purple: #CD97FF- rgb(0, 100, 0)
+  - Dark Purple: #8109D2 - rgb(129, 9, 210)
+  - White: #FFFFFF - rgb(255, 255, 255)
+  - Black: #000000 - rgb(0, 0, 0)
+  - Light Blue: #AEEEFF - rgb(174, 238, 255)
+  - Navy Blue: #005459 - rgb(0, 0, 0)
  */
  
 html {
@@ -73,8 +77,8 @@ a:link {
 }
 
 a:visited {
-	color: #9048FF;
-	border-bottom-color: rgba(144,72,255,0.5);
+	color: #8109D2;
+	border-bottom: 0.1em none rgba(130,0,255,1);
 }
 
 a:hover,
