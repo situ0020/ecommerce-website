@@ -18,6 +18,13 @@
 	padding: 0.5em;
 }
 
+.promo-box-small h1 {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0.5em;
+}
+
 p {
 	font-size: 0.875em;
 }
