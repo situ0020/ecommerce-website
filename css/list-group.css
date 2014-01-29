@@ -17,3 +17,11 @@ list-group-item {
 .list-group img {
 	border-radius: 52px;
 }
+
+.list-group li {
+	font-size: .75rem;
+}
+
+h5, li {
+	text-align: center;
+}
