@@ -6,6 +6,7 @@
 .promo-box {
 	border: solid 0.25em #000000;
 	padding: 1em;
+	display: inline-block
 }
 
 h1 {
