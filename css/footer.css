@@ -5,3 +5,45 @@ footer {
 	text-align: center;
 	padding-bottom: 0.15rem;
 }
+
+.social {
+	height: 1rem;
+	width: 100%;
+	text-align: center;
+	padding-left: 0%;
+}
+
+.ease-all {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+.hide-text {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.social li {
+	display: inline-block;
+	text-align: center;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.social li a:hover,
+.social li a:active,
+.social li a:focus {
+	color: #AEEEFF;
+}
