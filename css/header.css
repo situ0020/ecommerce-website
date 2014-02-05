@@ -52,3 +52,11 @@ header {
 .nav-top[data-state="expanded"] {
 	display: block
 }
+
+.nav ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}

@@ -10,7 +10,7 @@ footer {
 	height: 1rem;
 	width: 100%;
 	text-align: center;
-	padding-left: 1%;
+	padding: 0;
 }
 
 .ease-all {
@@ -46,4 +46,8 @@ footer {
 .social li a:active,
 .social li a:focus {
 	color: #AEEEFF;
+}
+
+.copyright {
+	padding: 0;
 }
