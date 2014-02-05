@@ -16,7 +16,8 @@
 	width: 50%;
 }
 
-h6 {
+h6,
+p {
 	padding-left: 1rem;
 }
 
