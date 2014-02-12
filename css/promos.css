@@ -2,7 +2,6 @@
 .promo-box-large {
 	border: solid 0.25em #000000;
 	padding: 1em;
-	display: inline-block;
 	margin: 1em;
 }
 
@@ -11,6 +10,7 @@
 	background-color: #AEEEFF;
 	text-align: center;
 	padding: 0.5em;
+	font-weight: 100;
 }
 
 .promo-box-small h1 {
@@ -18,26 +18,9 @@
 	color: #FFFFFF;
 	text-align: center;
 	padding: 0.5em;
+	font-weight: 100;
 }
 
 p {
 	font-size: 0.875em;
-}
-
-.left {
-	float: left;
-	width: 45%;
-	margin: 0.125em;
-}
-
-.right {
-	float: right;
-	width: 45%;
-	margin: 0.125em;
-}
-
-@media only screen and (min-width: 28em){
-	.promo-box-small {
-		width: 400px;
-	}
 }
