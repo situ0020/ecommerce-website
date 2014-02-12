@@ -15,7 +15,7 @@ html {
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 1.5rem rgba(77,77,77,1.00)
+  margin: 0 0 1.5rem
 }
 
 .yotta {
