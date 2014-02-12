@@ -22,3 +22,8 @@ list-group-item {
 	font-size: .75rem;
 }
 
+.list-group img:hover {
+	border: solid 0.25em #CD97FF;
+	border-radius: 100px;
+}
+
