@@ -1,11 +1,11 @@
 /*
   Colour Palette
   - Light Purple: #CD97FF- rgb(0, 100, 0)
-  - Dark Purple: #8109D2 - rgb(129, 9, 210)
+  - Gray: #CECECE - rgb(129, 9, 210)
+  - Dark Gray: #4D4D4D - rbg(77, 77, 77)
   - White: #FFFFFF - rgb(255, 255, 255)
   - Black: #000000 - rgb(0, 0, 0)
   - Light Blue: #AEEEFF - rgb(174, 238, 255)
-  - Navy Blue: #005459 - rgb(0, 0, 0)
  */
  
 html {
@@ -15,7 +15,7 @@ html {
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.5rem rgba(77,77,77,1.00)
 }
 
 .yotta {
@@ -70,22 +70,22 @@ small, .milli {
 
 a,
 a:link {
-	color: #8109D2;
+	color: #4D4D4D;
 	text-decoration: none;
 	border-bottom: 0.1em none rgba(130,0,255,1);
 	transition: all 200ms linear;
 }
 
 a:visited {
-	color: #8109D2;
+	color: #CECECE;
 	border-bottom: 0.1em none rgba(130,0,255,1);
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #CD97FF;
-	border-bottom-color: #CD97FF;
+	color: #4D4D4D;
+	border-bottom-color: #4D4D4D;
 }
 
 strong, b {
@@ -97,33 +97,33 @@ em, i {
 }
 
 mark {
-	 background-color: #CD97FF;
+	 background-color: #CECECE;
  }
  
 hr {
-	border-color: #CD97FF;
+	border-color: #CECECE;
 }
 
 th, td {
 	padding: .5rem 5%;
-	color: #CD97FF;
+	color: #4D4D4D;
 }
 
 table {
 	background-color: #FFF;
-	border: .125rem solid rgba(0,0,0,1.00);
+	border: .125rem solid #CECECE;
 	padding: .25rem;
 }
 
 td {
-	background-color: #CD97FF;
+	background-color: #CECECE;
 	color: #000;
 	font-weight: 300;
-	padding: 0 5rem;
+	padding: 0 3rem;
 }
 	
 blockquote {
-	background-color: #CD97FF;
+	background-color: #CECECE;
 	padding: 1.5rem;
 	border-radius: 30px;
 }

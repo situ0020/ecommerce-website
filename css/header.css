@@ -25,7 +25,8 @@ header {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color:#CD97FF;
+	background-color: #CECECE;
+	border-radius: 40px;
 }
 
 .nav a,
@@ -42,7 +43,7 @@ header {
 .nav a:hover,
 .nav a:focus,
 .nav a:visited {
-	background-color: #AEEEFF;
+	background-color: #CECECE;
 }
 
 .nav-top {

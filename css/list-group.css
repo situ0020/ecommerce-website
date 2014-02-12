@@ -23,7 +23,7 @@ list-group-item {
 }
 
 .list-group img:hover {
-	border: solid 0.25em #CD97FF;
+	border: solid 0.5em #CECECE;
 	border-radius: 100px;
 }
 
