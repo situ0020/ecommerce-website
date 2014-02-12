@@ -6,27 +6,28 @@
 	background-color: #FFFFFF;
 	color: #000000;
 	font-weight: bold;
-	border: solid .5rem #000000;
+	border: solid 0.5rem #000000;
+	border-radius: 5px;
 	box-shadow: 1px 1px 1px 1px #AAAAAA;
 	margin: 1em 2em 2em 3em;
+	font-weight: 500;
 }
 
 .btn:hover {
-	background-color: #EAD6FF;
+	border: solid 0.5rem #AEEEFF;
 }
 
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
-	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #EAD6FF, #FFFFFF);
+	background-image: linear-gradient(to bottom, #AEEEFF, #FFFFFF);
 	border-radius: 10px;
-	border: solid .25rem #EAD6FF;
+	border: solid .25rem #000000;
 	box-shadow: 1px 1px 1px 1px #AAAAAA;
 }
 
 .btn-alt:hover {
-	background-image: linear-gradient(to bottom, #EAD6FF, #C9C9C9);
+	border: #000000;
 }
 
 h3 {
