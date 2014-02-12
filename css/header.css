@@ -40,12 +40,12 @@ header {
 	text-decoration: none;
 }
 
-.nav a:hover,
 .nav a:focus,
 .nav a:visited {
-	background-color: #CECECE;
+	background-color: #000000;
 }
 
+.nav a:hover,
 .nav a:active {
 	background-color: #CECECE;
 }
