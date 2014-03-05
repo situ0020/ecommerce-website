@@ -128,3 +128,7 @@ blockquote {
 	padding: 1.5rem;
 	border-radius: 30px;
 }
+
+.thank-you {
+	text-align: center;
+}
