@@ -17,7 +17,7 @@ header {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 62px;
+	top: 107px;
 	right: 2rem;
 	height: 40px;
 	width: 40px;
@@ -47,8 +47,7 @@ header {
 	background-color: #000000;
 }
 
-.nav a:hover,
-.nav a:active {
+.nav a:hover {
 	background-color: #CECECE;
 }
 
@@ -116,7 +115,7 @@ li {
 }
 
 .current {
-	background-color: red;
+	background-color: #CECECE;
 }
 
 .banner {

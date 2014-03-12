@@ -27,18 +27,6 @@
 
 {{page.url}}
 
-<header>
-		<img src="http://placehold.it/75/75" alt="">
-		<a class="nav-btn hide-text" href="#nav">Navigation</a>
-		<nav class="nav nav-top" data-state="collasped">
-			<ul>
-				<li><a href="{{site.baseurl}}/">HOME</a></li>
-				<li><a href="{{site.baseurl}}/about/">ABOUT</a></li>
-				<li><a href="{{site.baseurl}}/thank-you/">THANK YOU</a></li>
-			</ul>	
-		</nav>	
-	</header>
-	
 	<div class="search">
 		<form>
 			<form id="demo-2">
@@ -46,6 +34,18 @@
 		</form>
 	</div>
 
+<header>
+		<img src="http://placehold.it/75/75" alt="">
+		<a class="nav-btn hide-text" href="#nav">Navigation</a>
+		<nav class="nav nav-top" data-state="collasped">
+			<ul>
+				<li><a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/">HOME</a></li>
+				<li><a class="{% if page.url contains 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
+				<li><a class="{% if page.url contains '/thank-you/' %}current{% endif %}"href="{{site.baseurl}}/thank-you/">THANK YOU</a></li>
+			</ul>	
+		</nav>	
+	</header>
+	
 {% if page.showbanner%}
 <div class="banner">
 	<h2>{{page.bannertext}}</h2>
