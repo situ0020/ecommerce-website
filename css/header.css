@@ -17,7 +17,7 @@ header {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 35px;
+	top: 62px;
 	right: 2rem;
 	height: 40px;
 	width: 40px;
@@ -70,9 +70,47 @@ li {
 
 
 @media only screen and (min-width: 30em) {
-.nav li{
+	.nav li{
 		display: inline-block;
 		text-align: center;
 		width: 8rem;
+	}
+	
+	.nav {
+		overflow: auto;
+	}
+	
+	.nav li {
+		float: left;
+		width: 33.33%;
+	}
+	
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited{
+		display: none;
+	}
+	
+	.nav-top{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+	.nav {
+		text-align: center;
+	}
+	
+	.nav li {
+		display: inline-block;
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 0 1%;
+	}
+
+	
+	.nav-top {
+		float: center;
 	}
 }
