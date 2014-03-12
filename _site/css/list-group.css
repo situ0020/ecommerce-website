@@ -1,0 +1,29 @@
+.list-group {
+	list-style-type: none;
+}
+
+.list-group-item::before {
+	content: "";
+}
+
+list-group-item {
+	display: block;
+}
+	
+.list-group-item-inline {
+	display: inline-block;
+}
+
+.list-group img {
+	border-radius: 52px;
+}
+
+.list-group li {
+	font-size: .75rem;
+}
+
+.list-group img:hover {
+	border: solid 0.5em #CECECE;
+	border-radius: 100px;
+}
+

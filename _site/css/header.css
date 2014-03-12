@@ -1,0 +1,130 @@
+header {
+	background-color: #000000;
+	text-align: center;
+	padding: 0.75rem;
+}
+
+/* Navigation */
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	display: block;
+	position: absolute;
+	top: 107px;
+	right: 2rem;
+	height: 40px;
+	width: 40px;
+	background: #000000 url('../images/nav-icon.svg') no-repeat center center;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #CECECE;
+	border-radius: 40px;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	text-align: center;
+	margin-top: 1rem;
+	color: #fff;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+.nav a:focus,
+.nav a:visited {
+	background-color: #000000;
+}
+
+.nav a:hover {
+	background-color: #CECECE;
+}
+
+.nav-top {
+	display: none;
+}
+
+.nav-top[data-state="expanded"] {
+	display: block
+}
+
+.nav ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+@media only screen and (min-width: 30em) {
+	.nav li{
+		display: inline-block;
+		text-align: center;
+		width: 8rem;
+	}
+	
+	.nav {
+		overflow: auto;
+	}
+	
+	.nav li {
+		float: left;
+		width: 33.33%;
+	}
+	
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited{
+		display: none;
+	}
+	
+	.nav-top{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+	.nav {
+		text-align: center;
+	}
+	
+	.nav li {
+		display: inline-block;
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 0 1%;
+	}
+
+	
+	.nav-top {
+		float: center;
+	}
+}
+
+.current {
+	background-color: #CECECE;
+}
+
+.banner {
+	background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+}
+
+.banner h2 {
+	color: #fff;
+	text-align: center;
+}
