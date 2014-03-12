@@ -1,7 +1,11 @@
 header {
 	background-color: #000000;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 5rem;
+}
+
+header img {
+	width: 100px;
 }
 
 /* Navigation */
@@ -17,7 +21,7 @@ header {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 107px;
+	top: 40px;
 	right: 2rem;
 	height: 40px;
 	width: 40px;
@@ -38,13 +42,7 @@ header {
 	text-align: center;
 	margin-top: 1rem;
 	color: #fff;
-	background-color: #000000;
 	text-decoration: none;
-}
-
-.nav a:focus,
-.nav a:visited {
-	background-color: #000000;
 }
 
 .nav a:hover {
@@ -127,4 +125,5 @@ li {
 .banner h2 {
 	color: #fff;
 	text-align: center;
+	font-weight: 200;
 }

@@ -1,20 +1,7 @@
----
-layout: default
-title: PROMO-LARGE
-bannertext: PRODUCTS
-showbanner: yes
----
-
-<div class="promo-box-large grid">
-	<h1>SALE OF THE WEEK</h1>
-	<div class="gutter unit unit-s-1 unit-m-1 unit-l-1-2">
-		{% include promo-small.html title="NINJV X" desc="LIMITED EDITION BLVCK TEE" image="products/black-shirt.jpg" %}
-		
-		<a class="btn micro" href="#">ADD TO CART</a>
-	</div>
-	<div class="gutter unit unit-s-1 unit-m-1 unit-l-1-2">
-		{% include promo-small.html title="STUD CAP" desc="STUDDED SNAPBACK" image="products/snapback.jpg"%}
-		
-		<a class="btn micro" href="#">ADD TO CART</a>
+<div class="promo-small">
+	<img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+	<div class="gutter">
+		<h2>{{include.title}}</h2>
+		<p>{{include.desc}}</p>
 	</div>
 </div>
