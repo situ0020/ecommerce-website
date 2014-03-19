@@ -44,6 +44,9 @@ header img {
 	color: #fff;
 	text-decoration: none;
 	padding: .5rem;
+}
+
+.nav li {
 	border-bottom: solid .1em #000000;
 }
 
@@ -72,18 +75,14 @@ li {
 	.nav li{
 		display: inline-block;
 		text-align: center;
-		width: 8rem;
+		float: center;
+		width: 6rem;
 	}
 	
 	.nav {
 		overflow: auto;
 	}
-	
-	.nav li {
-		float: left;
-		width: 33.33%;
-	}
-	
+
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
@@ -96,18 +95,6 @@ li {
 }
 
 @media only screen and (min-width: 50em) {
-	.nav {
-		text-align: center;
-	}
-	
-	.nav li {
-		display: inline-block;
-		float: none;
-		width: auto;
-		margin: 0;
-		padding: 0 1%;
-	}
-
 	
 	.nav-top {
 		float: center;
@@ -139,7 +126,12 @@ li {
 }
 
 .sub-nav {
-	background-color: #CECECE;
+	background-color: #000000;
 	text-align: center;
-	padding: 1.75rem 0 .05rem;
+	padding: .5rem;
+	
+}
+
+.sub-nav ul {
+	padding: 0;
 }
