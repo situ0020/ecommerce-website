@@ -8,7 +8,7 @@ name: CEE TEE
 # TEES
 
 #### CEE TEE
-![SIMPLE TEE](http://situ0020.github.com/ecommerce-website/images/products/cee-shirt.jpg)
+![SIMPLE TEE](http://situ0020.github.com/ecommerce-website/images/products/c-shirt.jpg)
 
 LIMITED EDITION CEE TEE
 
