@@ -12,7 +12,7 @@ title: Products
 			
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		<h1>PRODUCTS</h1>
+		<h1>BACKPACKS</h1>
 	</div>
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
 		<p></p>
@@ -21,24 +21,10 @@ title: Products
 
 <ul>
 	{% for products in site.pages %}
-		{% if product.item == 'tees' %}
+		{% if products.item == 'tees' %}
 			<li>
-				{{product.name}}
 				<a href="{{site.baseurl}}{{products.url}}">
-					<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
-
-<ul>
-	{% for products in site.pages %}
-		{% if product.item == 'backpacks' %}
-			<li>
-				{{products.name}}
-				<a href="{{site.baseurl}}{{products.url}}">
-					<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
+					<img src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
 				</a>
 			</li>
 		{% endif %}
