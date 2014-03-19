@@ -127,3 +127,13 @@ li {
 	text-align: center;
 	font-weight: 200;
 }
+
+.sub-nav img {
+	margin-top: .75rem;
+	margin-bottom: 0;
+	border: solid #000000;
+}
+
+.sub-nav img:hover {
+	border: solid #CECECE;
+}
