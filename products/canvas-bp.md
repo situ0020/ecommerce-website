@@ -2,7 +2,7 @@
 layout: default
 category: products
 item: backpacks
-image: products/black-bp.jpg
+image: products/canvas-bp.jpg
 name: CANVAS BACKPACK
 ---
 
@@ -10,7 +10,7 @@ name: CANVAS BACKPACK
 
 #### CANVAS BACKPACK
 
-![CANVAS BACKPACK](http://situ0020.github.com/ecommerce-website/images/products/black-bp.jpg)
+![CANVAS BACKPACK](http://situ0020.github.com/ecommerce-website/images/products/canvas-bp.jpg)
 
 MULTIPLE POCKETS
 
