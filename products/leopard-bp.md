@@ -1,7 +1,7 @@
 ---
 layout: default
 category: products
-backpacks: backpacks
+item: backpacks
 image: products/leopard-bp.jpg
 name: LEOPARD BACKPACK
 ---

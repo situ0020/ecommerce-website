@@ -1,7 +1,7 @@
 ---
 layout: default
 category: products
-tees: tees
+item: tees
 image: products/one-of-a-kind.jpg
 name: ONE OF A KIND TEE
 ---

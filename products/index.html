@@ -14,6 +14,18 @@ title: Products
 
 <ul>
 	{% for products in site.pages %}
+		{% if products.item == 'tees' %}
+			<li>
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img src="{{site.baseurl}}/images/products/tees.jpg" alt="">
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for products in site.pages %}
 		{% if products.category == 'products' %}
 			{{products.name}}
 			<li>

@@ -1,7 +1,7 @@
 ---
 layout: default
 category: products
-tees: tees
+item: tees
 image: products/black-shirt.jpg
 name: BLACK TEE
 ---
