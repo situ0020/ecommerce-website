@@ -37,6 +37,7 @@
 			<ul>
 				<li><a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/">HOME</a></li>
 				<li><a class="{% if page.url contains 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
+				<li><a class="{% if page.url contains '/products/' %}current{% endif %}"href="{{site.baseurl}}/products/">PRODUCTS</a></li>
 				<li><a class="{% if page.url contains '/thank-you/' %}current{% endif %}"href="{{site.baseurl}}/thank-you/">THANK YOU</a></li>
 			</ul>	
 		</nav>	
@@ -51,6 +52,24 @@
 			<input type="search" placeholder="SEARCH">
 		</form>
 	</div>
+</div>
+{% endif %}
+
+{% if page.title == 'Products' %}
+<div>
+	<a href="{{site.baseurl}}{{products.url}}">
+		<img src="{{site.baseurl}}/images/products/backpacks.jpg" alt="">
+	</a>
+</div>
+{% endif %}
+
+<ul>
+	{% for product in site.pages %}
+		{% if products.item == 'tees' %}
+<div>
+	<a href="{{site.baseurl}}{{products.url}}">
+		<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
+	</a>
 </div>
 {% endif %}
 
