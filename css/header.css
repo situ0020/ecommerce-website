@@ -43,10 +43,12 @@ header img {
 	margin-top: 1rem;
 	color: #fff;
 	text-decoration: none;
+	padding: .5rem;
+	border-bottom: solid .1em #000000;
 }
 
 .nav a:hover {
-	background-color: #CECECE;
+	border-bottom: solid .1em #CECECE;
 }
 
 .nav-top {
@@ -128,12 +130,22 @@ li {
 	font-weight: 200;
 }
 
+.sub-nav li {
+	margin: 0;
+}
+
 .sub-nav img {
 	margin-top: .75rem;
 	margin-bottom: 0;
-	border: solid #000000;
 }
 
 .sub-nav img:hover {
-	border: solid #CECECE;
+	padding-right: .25rem;
+	border-right: solid .1rem #000000;
+}
+
+.sub-nav a:hover,
+.sub-nav a:active,
+.sub-nav a:linked {
+	background-color: none;
 }
