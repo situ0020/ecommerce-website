@@ -130,22 +130,16 @@ li {
 	font-weight: 200;
 }
 
-.sub-nav li {
-	margin: 0;
-}
-
 .sub-nav img {
-	margin-top: .75rem;
-	margin-bottom: 0;
+	border: solid .25rem #CECECE;
 }
 
 .sub-nav img:hover {
-	padding-right: .25rem;
-	border-right: solid .1rem #000000;
+	border: solid .25rem #fff;
 }
 
-.sub-nav a:hover,
-.sub-nav a:active,
-.sub-nav a:linked {
-	background-color: none;
+.sub-nav {
+	background-color: #CECECE;
+	text-align: center;
+	padding: 1.75rem 0 .05rem;
 }
