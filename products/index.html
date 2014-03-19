@@ -12,4 +12,17 @@ title: Products
 	</div>
 </div>
 
+<ul>
+	{% for products in site.pages %}
+		{% if products.category == 'products' %}
+			{{products.name}}
+			<li>
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
 

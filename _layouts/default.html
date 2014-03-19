@@ -55,24 +55,6 @@
 </div>
 {% endif %}
 
-{% if page.title == 'Products' %}
-<div>
-	<a href="{{site.baseurl}}{{products.url}}">
-		<img src="{{site.baseurl}}/images/products/backpacks.jpg" alt="">
-	</a>
-</div>
-{% endif %}
-
-<ul>
-	{% for product in site.pages %}
-		{% if products.item == 'tees' %}
-<div>
-	<a href="{{site.baseurl}}{{products.url}}">
-		<img src="{{site.baseurl}}/images/{{products.image}}" alt="">
-	</a>
-</div>
-{% endif %}
-
 {{content}}
 
 	<footer>

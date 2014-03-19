@@ -1,12 +1,22 @@
 ---
 layout: default
 category: products
-item: tees
-image: products/tees.jpg
+tees: tees
+image: products/one-of-a-kind.jpg
+name: ONE OF A KIND TEE
 ---
+
 # TEES
 
 #### GRVPHIC TEE
-![SIMPLE TEE](http://situ0020.github.com/ecommerce-website/images/products/black-shirt.jpg)
+![SIMPLE TEE](http://situ0020.github.com/ecommerce-website/images/products/one-of-a-kind.jpg)
+
+ONE OF A KIND TEE
+
+FITTED TEE
+
+100% COTTON
+
+**$25**
 
 
