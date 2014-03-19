@@ -3,7 +3,7 @@ layout: default
 category: products
 item: tees
 image: products/number-shirt.jpg
-name: # TEE
+name: NUMBER TEE
 ---
 
 # TEES

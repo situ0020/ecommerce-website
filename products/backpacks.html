@@ -5,8 +5,8 @@ title: Products
 
 <nav>
 	<ul>
-		<li><a class="{% if page.url contains 'tees' %}current{% endif %}"href="{{site.baseurl}}/products/tees">TEES</a></li>
-		<li><a class="{% if page.url contains 'backpacks' %}current{% endif %}"href="{{site.baseurl}}/products/backpacks">BACKPACKS</a></li>
+		<li><a class="{% if page.url contains 'tees' %}current{% endif %}"href="{{site.baseurl}}/products"><img src="{{site.baseurl}}/images/products/all.jpg" alt=""></a></li>
+		<li><a class="{% if page.url contains 'backpacks' %}current{% endif %}"href="{{site.baseurl}}/products/tees"><img src="{{site.baseurl}}/images/products/tees.jpg" alt=""></a></li>
 	</ul>
 </nav>
 			
@@ -20,10 +20,11 @@ title: Products
 </div>
 
 <ul>
-	{% for products in site.pages %}
-		{% if products.item == 'backpacks' %}
+	{% for product in site.pages %}
+		{% if product.item == 'backpacks' %}
+			{{product.name}}
 			<li>
-				<a href="{{site.baseurl}}{{products.url}}">
+				<a href="{{site.baseurl}}{{product.url}}">
 					<img src="{{site.baseurl}}/images/{{product.image}}" alt="BACKPACKS">
 				</a>
 			</li>

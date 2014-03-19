@@ -4,15 +4,15 @@ title: Products
 ---
 
 <nav>
-	<ul>
-		<li><a class="{% if page.url contains 'tees' %}current{% endif %}"href="{{site.baseurl}}/products/tees">TEES</a></li>
-		<li><a class="{% if page.url contains 'backpacks' %}current{% endif %}"href="{{site.baseurl}}/products/backpacks">BACKPACKS</a></li>
+	<ul class="sub-nav">
+		<li><a class="{% if page.url contains 'tees' %}current{% endif %}"href="{{site.baseurl}}/products"><img src="{{site.baseurl}}/images/products/all.jpg" alt=""></a></li>
+		<li><a class="{% if page.url contains 'backpacks' %}current{% endif %}"href="{{site.baseurl}}/products/backpacks"><img src="{{site.baseurl}}/images/products/backpacks.jpg" alt=""></a></li>
 	</ul>
 </nav>
 			
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		<h1>BACKPACKS</h1>
+		<h1>TEES</h1>
 	</div>
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
 		<p></p>
@@ -20,10 +20,11 @@ title: Products
 </div>
 
 <ul>
-	{% for products in site.pages %}
-		{% if products.item == 'tees' %}
+	{% for product in site.pages %}
+		{% if product.item == 'tees' %}
+			{{product.name}}
 			<li>
-				<a href="{{site.baseurl}}{{products.url}}">
+				<a href="{{site.baseurl}}{{product.url}}">
 					<img src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
 				</a>
 			</li>
