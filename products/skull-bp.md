@@ -19,3 +19,5 @@ HIGH QUALITY MATERIAL
 COMES IN 7 DIFFERENT COLOURS
 
 **$50**
+
+<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
