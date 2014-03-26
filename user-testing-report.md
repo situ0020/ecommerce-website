@@ -1,6 +1,6 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by {Katie Situ} on {March 26 2014} between the times of {3:15PM} and {end 3:40PM} with the following participants:
 
 - {Amanda Sparks}
 - {Pedro Santos}
@@ -9,36 +9,34 @@ User testing was conducted by {your name} on {specific date} between the times o
 ## Tasks
 
 1. {Locate: Skull Backpack}
-2. {Second task description here}
-3. {Third task description here}
+2. {Search anything & Purchase}
+3. {Find information about the company}
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### {Amanda Sparks}
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Clicked through website easily}
+- {Preferred the Checkout button to be at the top}
+- {Found the Checkout page needed a title at the top}
+- {Easy navigation}
 
-### {John Doe}
+### {Pedro Santos}
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Clicked through website easily}
+- {Easy to find products}
+- {Easy navigation}
 
-### {Jordan Doe}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+### {Anita Chanthavong}
+
+- {Clicked through website easily}
+- {Preferred smaller images}
+- {Easy navigation}
+- {Fix placement of buttons}
+- {Have search engine on all pages}
 
 ---
 
@@ -46,15 +44,15 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {Nothing}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {Move title to top on the product details/checkout page}
+- {Move checkout button to the top}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {Oversized Images}
+- {Make sure to have Buy Now button on ALL pages}
+- {Add search engine on all pages}
