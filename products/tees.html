@@ -19,13 +19,15 @@ title: Products
 	</div>
 </div>
 
-<ul class>
+<ul>
 	{% for product in site.pages %}
 		{% if product.item == 'tees' %}
 			{{product.name}}
 			<li>
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="TEE</l														
-
-a></li>
+					<img src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
+				</a>
+			</li>
 		{% endif %}
+	{% endfor %}
+</ul>

@@ -23,11 +23,12 @@ title: Products
 	{% for product in site.pages %}
 		{% if product.item == 'tees' %}
 			{{product.name}}
-			<li>
+			<i class="fa fa-arrow-down"></i>
+			<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
+			<li class="product-image">
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
 				</a>
-				<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
 			</li>
 		{% endif %}
 	{% endfor %}
@@ -37,12 +38,11 @@ title: Products
 	{% for product in site.pages %}
 		{% if product.item == 'backpacks' %}
 			{{product.name}}
-			<li>
-				<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
-			</li>
-			<li>
+			<i class="fa fa-arrow-down"></i>
+			<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
+			<li class="product-image">
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="BACKPACKS">
 				</a>
 			</li>
 		{% endif %}
