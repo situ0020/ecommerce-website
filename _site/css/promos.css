@@ -25,3 +25,11 @@
 	font-size: 0.875em;
 	padding-left: .75rem;
 }
+
+.promo-box-large img {
+	padding: 5em;
+}
+
+.promo-box-small img {
+	padding: 3em;
+}
