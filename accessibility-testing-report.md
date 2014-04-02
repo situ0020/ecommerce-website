@@ -1,8 +1,8 @@
 # Accessibility Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by {Katie Situ } on {April 2 2014} between the times of {3:05PM} and {end time} with the following participants:
 
-- {Jane Doe}
+- {Pedro Santos}
 - {John Doe}
 - {Jordan Doe}
 - {Theresa Doe}
@@ -11,9 +11,9 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
-3. {Third task description here}
+1. {Find the last fact about the company}
+2. {Find the related products on any of the products}
+3. {Purchase the 'CANVAS BACKPACK'}
 
 ---
 
