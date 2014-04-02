@@ -31,10 +31,10 @@
 
 <body>
 
-<header>
-		<img src="/images/logo.jpg" alt="">
+<header class="masthead island push-0" role="banner">
+		<img src="/images/logo.jpg" alt="Company Logo">
 		<a class="nav-btn hide-text" href="#nav">Navigation</a>
-		<nav class="nav nav-top" data-state="collasped">
+		<nav class="nav nav-top" data-state="collasped" role="navigation">
 			<ul>
 				<li><a class=""href="/">HOME</a></li>
 				<li><a class=""href="/about/">ABOUT</a></li>
@@ -47,27 +47,29 @@
 <div class="banner">
 	<h2></h2>
 	<div class="search">
-		<form method="get" action="/search">
+		<form method="get" action="/search" role="search">
 			Search:<input type="search" placeholder="SEARCH">
 		</form>
 	</div>
 </div>
 
 
-<div class="grid">
-	<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
-		<h2 class="thank-you">THANK YOU FOR SHOPPING</h2>
-		<p>We appreciate our customers and do our best to offer a great online shopping experience.</p>
-		<p>-BLVCK NINJVS</p>
+<main role="main">
+	<div class="grid">
+		<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
+			<h2 class="thank-you">THANK YOU FOR SHOPPING</h2>
+			<p>We appreciate our customers and do our best to offer a great online shopping experience.</p>
+			<p>-BLVCK NINJVS</p>
+		</div>
 	</div>
-</div>
+</main>
 
 	<footer>
 		<ul class="social">
 			<li><a class="ease-all" href="#"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
 			<li><a class="ease-all" href="#"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
 		</ul>
-		<p class="copyright">Copyright © 2014</p>
+		<p class="copyright" role="contentinfo">© 2014 BLVCK NINJVS</p>
 	</footer>
 	
 	<script src="/js/nav.js"></script>

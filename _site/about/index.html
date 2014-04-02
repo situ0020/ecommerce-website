@@ -31,10 +31,10 @@
 
 <body>
 
-<header>
-		<img src="/images/logo.jpg" alt="">
+<header class="masthead island push-0" role="banner">
+		<img src="/images/logo.jpg" alt="Company Logo">
 		<a class="nav-btn hide-text" href="#nav">Navigation</a>
-		<nav class="nav nav-top" data-state="collasped">
+		<nav class="nav nav-top" data-state="collasped" role="navigation">
 			<ul>
 				<li><a class=""href="/">HOME</a></li>
 				<li><a class="current"href="/about/">ABOUT</a></li>
@@ -47,13 +47,14 @@
 <div class="banner">
 	<h2>ORIGIN OF BLVCK NINJVS</h2>
 	<div class="search">
-		<form method="get" action="/search">
+		<form method="get" action="/search" role="search">
 			Search:<input type="search" placeholder="SEARCH">
 		</form>
 	</div>
 </div>
 
 
+<main role="main">
 	<div class="grid promo-box-small">
 		<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="http://placehold.it/500x500" alt="Company Logo">
@@ -65,13 +66,14 @@
 			<p>Offers International Shipping</p>
 		</div>
 	</div>
+</main>
 
 	<footer>
 		<ul class="social">
 			<li><a class="ease-all" href="#"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
 			<li><a class="ease-all" href="#"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
 		</ul>
-		<p class="copyright">Copyright © 2014</p>
+		<p class="copyright" role="contentinfo">© 2014 BLVCK NINJVS</p>
 	</footer>
 	
 	<script src="/js/nav.js"></script>

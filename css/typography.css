@@ -91,12 +91,14 @@ a:active {
 
 a:hover,
 a:active {
-	/* Focus MUST ALWAYS have a focus rectangle for keyboard users */
+	/* It is okay to remove the rectangle for the mouse actions */
 	outline: none;
 }
 
-a:focus {
-	/* It is okay to remove the rectangle for the mouse actions */
+a:focus,
+input:focus,
+button:focus {
+	/* Focus MUST ALWAYS have a focus rectangle for keyboard users */
 	outline: 3px solid #CECECE;
 }
 
