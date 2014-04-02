@@ -4,52 +4,54 @@ title: Products
 showbanner: yes
 ---
 
-<nav class="sub-nav">
-	<ul>
-		<li><a href="{{site.baseurl}}/products/tees"><img src="{{site.baseurl}}/images/products/tees.jpg" alt="Tees Button"></a></li>
-		<li><a href="{{site.baseurl}}/products/backpacks"><img src="{{site.baseurl}}/images/products/backpacks.jpg" alt="Backpacks Button"></a></li>
-	</ul>
-</nav>
-			
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		<h1>PRODUCTS</h1>
+<main role="main">
+	<nav class="sub-nav">
+		<ul>
+			<li><a href="{{site.baseurl}}/products/tees"><img src="{{site.baseurl}}/images/products/tees.jpg" alt="Tees Button"></a></li>
+			<li><a href="{{site.baseurl}}/products/backpacks"><img src="{{site.baseurl}}/images/products/backpacks.jpg" alt="Backpacks Button"></a></li>
+		</ul>
+	</nav>
+				
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			<h1>PRODUCTS</h1>
+		</div>
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+			<p></p>
+		</div>
 	</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-		<p></p>
-	</div>
-</div>
-
-<div class="grid">
-	<ul class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
-		{% for product in site.pages %}
-			{% if product.item == 'tees' %}
-				{{product.name}}
-				<i class="fa fa-arrow-down"></i>
-				<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
-				<li class="product-image">
-					<a href="{{site.baseurl}}{{product.url}}">
-						<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
-					</a>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
 	
-	<ul class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
-		{% for product in site.pages %}
-			{% if product.item == 'backpacks' %}
-				{{product.name}}
-				<i class="fa fa-arrow-down"></i>
-				<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
-				<li class="product-image">
-					<a href="{{site.baseurl}}{{product.url}}">
-						<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="BACKPACKS">
-					</a>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
-</div>
+	<div class="grid">
+		<ul class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+			{% for product in site.pages %}
+				{% if product.item == 'tees' %}
+					{{product.name}}
+					<i class="fa fa-arrow-down"></i>
+					<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
+					<li class="product-image">
+						<a href="{{site.baseurl}}{{product.url}}">
+							<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="TEES">
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		
+		<ul class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+			{% for product in site.pages %}
+				{% if product.item == 'backpacks' %}
+					{{product.name}}
+					<i class="fa fa-arrow-down"></i>
+					<a class="btn micro" href="{{site.baseurl}}/cart/">BUY NOW</a>
+					<li class="product-image">
+						<a href="{{site.baseurl}}{{product.url}}">
+							<img class="img-flex" src="{{site.baseurl}}/images/{{product.image}}" alt="BACKPACKS">
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</main>
 
 

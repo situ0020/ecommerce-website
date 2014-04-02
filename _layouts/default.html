@@ -31,10 +31,10 @@
 
 <body>
 
-<header>
+<header class="masthead island push-0" role="banner">
 		<img src="{{site.baseurl}}/images/logo.jpg" alt="Company Logo">
 		<a class="nav-btn hide-text" href="#nav">Navigation</a>
-		<nav class="nav nav-top" data-state="collasped">
+		<nav class="nav nav-top" data-state="collasped" role="navigation">
 			<ul>
 				<li><a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/">HOME</a></li>
 				<li><a class="{% if page.url contains 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
@@ -47,7 +47,7 @@
 <div class="banner">
 	<h2>{{page.bannertext}}</h2>
 	<div class="search">
-		<form method="get" action="{{site.baseurl}}/search">
+		<form method="get" action="{{site.baseurl}}/search" role="search">
 			Search:<input type="search" placeholder="SEARCH">
 		</form>
 	</div>
@@ -61,7 +61,7 @@
 			<li><a class="ease-all" href="#"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
 			<li><a class="ease-all" href="#"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
 		</ul>
-		<p class="copyright">Copyright © 2014</p>
+		<p class="copyright" role="contentinfo">© 2014 BLVCK NINJVS</p>
 	</footer>
 	
 	<script src="{{site.baseurl}}/js/nav.js"></script>
