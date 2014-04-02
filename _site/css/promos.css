@@ -21,7 +21,7 @@
 	font-weight: 100;
 }
 
-p {
+.promo-box-small p {
 	font-size: 0.875em;
-	padding-left: 0rem;
+	padding-left: .75rem;
 }
