@@ -19,33 +19,33 @@ User testing was conducted by {Katie Situ } on {April 2 2014} between the times 
 
 ## Individual Results & Observations
 
-### {Pedro Santos}
+### {Pedro Santos - VoiceOver}
 
 - {He completed the tasks quickly and easily}
 - {No issues with navigating}
 
-### {Amanda Sparks}
+### {Amanda Sparks - VoiceOver}
 
 - {She completed the tasks easily}
 - {No issues with navigating or finding anything}
 - {Voiceover can be a bit confusing}
 
-### {Anita Chanthavong}
+### {Anita Chanthavong - VoiceOver}
 
 - {She completed the tasks}
 
-### {Melissa Roy}
+### {Melissa Roy - Keyboard}
 
 - {She completed the tasks quickly and easily}
 - {Simple and quick navigation}
 - {She had no issues}
 
-### {Rebecca Cole}
+### {Rebecca Cole - Keyboard}
 
 - {She completed the tasks quickly and easily}
 - {She had no issues}
 
-### {Thalia Bacilio }
+### {Thalia Bacilio - Keyboard}
 
 - {She navigated easily through each task}
 - {Slight confusion of finding the canvas backpack due to large header}
