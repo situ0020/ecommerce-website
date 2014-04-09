@@ -28,11 +28,11 @@ User testing was conducted by {Katie Situ } on {April 2 2014} between the times 
 
 - {She completed the tasks easily}
 - {No issues with navigating or finding anything}
+- {Voiceover can be a bit confusing}
 
 ### {Anita Chanthavong}
 
 - {She completed the tasks}
-- {She had troubles completing a specific task…}
 
 ### {Melissa Roy}
 
