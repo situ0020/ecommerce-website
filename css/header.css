@@ -80,7 +80,6 @@ li {
 	.nav li{
 		display: inline-block;
 		text-align: center;
-		float: center;
 		width: 6rem;
 	}
 	
